@@ -14,7 +14,8 @@
 
 
 header {
-    padding: 15px 0 0;
+    height: 100vh;
+    padding: 20px 0 0;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     width: 480px;
@@ -39,17 +40,18 @@ form {
 }
 
 .search {
+    padding: 25px 30px 0;
     width: 100%;
     background: #0d0a50;
 }
 
-.search {
-    padding: 25px 30px 0;
+.search input:focus {
+    border-color: white;
 }
 
 .search input {
     background-color: #0d0a50;
-color: white;
+    color: white;
     margin: auto;
     font-size: 22px;
     width: 100%;
@@ -118,37 +120,33 @@ color: white;
 
 
 .title {
-padding-left: 25px;
+    padding-left: 25px;
     width: 85%;
     display: inline-block;
     color: white;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
-#idishka:checked ~ .hidden {
+
+#idishka:checked~.hidden {
     max-height: 800px;
     font-size: 28px;
-} 
+}
+
 .inline {
     display: inline-block;
     width: 10%;
 }
-.rel {
-    
-}
+
 .hidden {
-max-height: 0;
-font-size: 0;
-overflow: hidden;
-transition: 0.5s all;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: 0.5s all;
 }
 
 #idishka {
     display: none;
     width: 20%;
 }
-
-
-
-
