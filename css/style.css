@@ -14,11 +14,10 @@
 
 
 header {
-    height: 100vh;
     padding: 20px 0 0;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
-    width: 480px;
+    width: 100%;
     margin: auto;
     background-color: #0d0a50;
 }
