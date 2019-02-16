@@ -130,7 +130,7 @@ form {
 
 #idishka:checked~.hidden {
     max-height: 800px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .inline {
