@@ -24,7 +24,7 @@ header {
 
 a {
     text-decoration: none;
-    color: rgba(249, 240, 218, 0.712);
+    color: rgb(249, 240, 218);
 }
 
 a:hover {
@@ -75,7 +75,7 @@ form {
 }
 
 .list {
-    line-height: 45px;
+    line-height: 35px;
     padding: 25px 35px;
     list-style: none;
 }
@@ -110,7 +110,7 @@ form {
 
 .icon {
     justify-content: center;
-    margin: 0 25px;
+    margin: 0 20px;
 }
 
 .fb {
