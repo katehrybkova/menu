@@ -120,7 +120,7 @@ form {
 
 .title {
     padding-left: 25px;
-    width: 75%;
+    width: 80%;
     display: inline-block;
     color: white;
     font-size: 30px;
@@ -135,7 +135,7 @@ form {
 
 .inline {
     display: inline-block;
-    width: 20%;
+    width: 15%;
 }
 
 
