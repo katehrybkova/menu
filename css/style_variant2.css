@@ -10,10 +10,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.icons2 {
+width: 50%;
+}
 
 
 header {
+    display: flex;
     padding: 20px 0 0;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;

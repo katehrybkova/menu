@@ -14,7 +14,7 @@
 
 
 header {
-    padding: 20px 0 0;
+    padding: 10px 0 0;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     width: 100%;
@@ -107,25 +107,32 @@ form {
     padding: 0 35px 20px;
 
 }
-
+.icons2{
+    width: 38%;
+    display: inline-block;
+}
 .icon {
     justify-content: center;
     margin: 0 10px;
 }
-
+.icon2 {
+    width: 30%;
+    display: inline-block;
+}
 .fb {
     padding-top: 3px;
 }
 
 
 .title {
+    padding-top: 5px;
     padding-left: 25px;
-    width: 80%;
+    width: 45%;
     display: inline-block;
     color: white;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #idishka:checked~.hidden {
@@ -134,8 +141,8 @@ form {
 }
 
 .inline {
-    display: inline-block;
     width: 15%;
+   
 }
 
 
