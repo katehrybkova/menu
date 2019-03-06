@@ -11,7 +11,18 @@
     box-sizing: border-box;
 }
 
-
+.burger {
+    display: inline-block;
+width : 25px;
+height: 25px;
+background-image: url(../images/menu.svg);
+background-position: center;
+background-size: cover;
+}
+.burger:hover {
+    background-image: url(../images/close.svg);
+    background-size: contain;
+}
 
 header {
     padding: 17px 0 0;
