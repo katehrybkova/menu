@@ -13,15 +13,11 @@
 
 .burger {
     display: inline-block;
-width : 25px;
-height: 25px;
-background-image: url(../images/menu.svg);
-background-position: center;
-background-size: cover;
-}
-.burger:hover {
-    background-image: url(../images/close.svg);
-    background-size: contain;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/menu.svg);
+    background-position: center;
+    background-size: cover;
 }
 
 header {
@@ -34,7 +30,7 @@ header {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(249, 240, 218);
 }
 
 a:hover {
@@ -117,19 +113,23 @@ form {
     padding: 0 35px 20px;
 
 }
-.icons2{
+
+.icons2 {
     margin-bottom: 12px;
     width: 35%;
     display: inline-block;
 }
+
 .icon {
     justify-content: center;
     margin: 0 10px;
 }
+
 .icon2 {
     width: 40%;
     display: inline-block;
 }
+
 .fb {
     padding-top: 3px;
 }
@@ -139,6 +139,7 @@ form {
     top: -6px;
     left: 35px;
 }
+
 .title {
     position: relative;
     padding-top: 5px;
@@ -148,7 +149,7 @@ form {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 21px;
-    
+
 }
 
 #idishka:checked~.hidden {
@@ -158,7 +159,18 @@ form {
 
 .inline {
     width: 15%;
-   
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/menu.svg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#idishka:checked~.inline {
+    background-image: url(../images/close.svg);
+    background-size: contain;
 }
 
 
@@ -172,4 +184,5 @@ form {
 #idishka {
     display: none;
     width: 20%;
+
 }
